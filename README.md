@@ -1,4 +1,4 @@
-# 📊 Financial ELT Data Analysis Pipeline
+#  Financial ELT Data Analysis Pipeline
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,7 +6,7 @@
 
 A professional-grade ELT (Extract, Load, Transform) data pipeline for analyzing financial market data from Kaggle. This project demonstrates industry best practices for data engineering, including modular architecture, comprehensive documentation, and automated workflows.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This pipeline processes daily closing prices for major financial indices and commodities:
 - **S&P 500 Index** - US stock market performance
@@ -36,7 +36,7 @@ This pipeline processes daily closing prices for major financial indices and com
 - ✅ **Volatility Analysis**: Rolling volatility calculations
 - ✅ **Comparative Analysis**: Price ratios between assets
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 financial-elt-data-analysis/
@@ -60,7 +60,7 @@ financial-elt-data-analysis/
 └── README.md                     # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -139,7 +139,7 @@ transformer = DataTransformer()
 transformed_df = transformer.transform_pipeline(df)
 ```
 
-## 📊 Output Data
+##  Output Data
 
 ### Raw Data
 - Location: `data/raw/financial_data.csv`
@@ -151,7 +151,7 @@ transformed_df = transformer.transform_pipeline(df)
 - Formats: SQLite, CSV, Parquet
 - Additional Features: 30+ calculated metrics
 
-## 🔧 Configuration
+##  Configuration
 
 ### Database Settings
 Modify database path in `load/data_loader.py`:
@@ -175,7 +175,7 @@ pytest tests/
 pytest --cov=. tests/
 ```
 
-## 📈 Data Analysis Examples
+##  Data Analysis Examples
 
 After running the pipeline, analyze the data:
 
@@ -195,7 +195,7 @@ plt.legend()
 plt.show()
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -207,7 +207,7 @@ Contributions are welcome! Please follow these steps:
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and development process.
 
-## 📝 Best Practices Demonstrated
+##  Best Practices Demonstrated
 
 This project showcases professional development practices:
 
@@ -219,7 +219,7 @@ This project showcases professional development practices:
 - ✅ **Scalability**: Easy to extend with new data sources
 - ✅ **Reproducibility**: Requirements file, clear setup instructions
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+** - Core programming language
 - **Pandas** - Data manipulation and analysis
@@ -229,7 +229,7 @@ This project showcases professional development practices:
 - **Matplotlib/Seaborn** - Data visualization
 - **Plotly** - Interactive visualizations
 
-## 📚 Learn More
+##  Learn More
 
 ### Data Engineering Concepts
 - [ELT vs ETL](https://www.integrate.io/blog/etl-vs-elt/)
@@ -244,7 +244,7 @@ This project showcases professional development practices:
 - Large datasets may require additional memory optimization
 - Kaggle API rate limits may affect frequent downloads
 
-## 🗓️ Roadmap
+##  Roadmap
 
 - [ ] Add unit tests with pytest
 - [ ] Implement CI/CD with GitHub Actions
@@ -258,19 +258,19 @@ This project showcases professional development practices:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+##  Author
 
 **Sarvesh Venkatachalam**
 - GitHub: [@ksarveshvenkatachalam-lang](https://github.com/ksarveshvenkatachalam-lang)
 - LinkedIn: [Connect with me](https://www.linkedin.com/in/ksarveshvenkatachalam)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Data provided by [Kaggle - Nazanin Mottaghi](https://www.kaggle.com/datasets/nazaninmottaghi2022/financial-data)
 - Inspired by industry-standard data engineering practices
 - Built for portfolio and learning purposes
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions:
 - Open an [Issue](https://github.com/ksarveshvenkatachalam-lang/financial-elt-data-analysis/issues)
@@ -278,4 +278,3 @@ If you encounter any issues or have questions:
 
 ---
 
-⭐ **If you find this project helpful, please give it a star!** ⭐
